@@ -57,8 +57,9 @@ def spider_Proxy(url=""):
         url= "http://www.xicidaili.com"
     a_web_proxy_list = []
     try:
-        import configmode
-        webproxy=configmode.webproxy
+        import configmod
+
+        webproxy=configmod.webproxy
         print(webproxy)
         for i in webproxy:
             if webproxy[i]:
